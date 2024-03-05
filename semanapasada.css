@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+div {
+    background-color: greenyellow;
+    font-size: 20px;
+    padding: 1px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color:gray;
+    border: 2px solid lightgray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 16px 14px;
+    border-right: 1px solid lightgrey;
+    text-align: center;
+}
+
+li.derecha {
+    float: right;
+    border-right: none;
+}
+
+li a.home {
+    background-color: green;
+}
+
+li a:hover:not(.home) {
+    background-color: rgb(72, 66, 66);
+}
+
+p {
+    margin-left: 15px;
+}
+
+
+p.lorem {
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 600px)
+{
+    li, li.derecha {
+        float: none;
+
+    }
+
+    li a {
+        text-align: left;
+    }
+
+    
+}
