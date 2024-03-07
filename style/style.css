@@ -1,0 +1,90 @@
+
+body {
+    background-color: rgba(127, 255, 212, 0.38);
+    padding: 12px 0px;
+}
+
+
+h1 span.uno {
+    color: rgb(211, 211, 54);
+}
+h1 span.dos {
+    color: blue;
+}
+h1 span.tres {
+    color: rgb(185, 25, 25);
+}
+
+
+#tp {
+    text-align: center;
+    font-size: 68px;
+    font-family:cursive ;
+}
+
+ ul.ppal1  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+    border-radius: 10px;
+   
+}
+
+ul.ppal1 li {
+    float: left;
+    padding: 0px 45px;
+    border-right: 1px solid whitesmoke;
+
+}
+
+ul.ppal1 li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 30px;
+}
+
+ul.ppal1 li:hover {
+    background-color: coral;
+  
+}
+
+ul.ppal1 li a:hover
+{
+   color: black;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1s color;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+  
+}
+
+ul.ppal1 li:last-child {
+    border-right: none;
+    
+}
+
+@media screen and (max-width:500px) {
+  ul.ppal1 li {
+    float: none;
+  }
+}
+
+.clearfix {
+    clear:both;
+}
+
+section.isla {
+    margin-top: 20px;
+    width: 50%;
+
+}
+
+section.isla img {
+    width: 100%;
+}
